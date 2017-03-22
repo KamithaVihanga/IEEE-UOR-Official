@@ -203,7 +203,7 @@ var $ = jQuery.noConflict();
                 disableDefaultUI: true,
                 zoomControl: true,
                 scrollwheel: false
-            }
+            };
             map = new google.maps.Map(document.getElementById('map'), mapOptions);
             var styledMapOptions = {
                 name: 'Custom Style'

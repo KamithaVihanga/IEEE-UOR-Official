@@ -442,11 +442,12 @@ var $ = jQuery.noConflict();
     try {
         var firstSentence = $("#typed").attr('data-typed-first');
         var secondSentence = $("#typed").attr('data-typed-second');
+        //noinspection JSDuplicatedDeclaration
         $("#typed").typed({
             strings: [firstSentence, secondSentence],
-            typeSpeed: 0,
+            typeSpeed : 0,
             loop: true,
-            typeSpeed: 150
+            typeSpeed : 150
         });
     } catch(err) {
 
